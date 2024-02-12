@@ -1,0 +1,51 @@
+/* Navbar styles */
+
+
+.navbar {
+  margin-top: 0;
+  background-color: #333; /* dark grey */
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* H1 styles */
+h1 {
+  text-align: center;
+}
+
+/* Custom scrollbar */
+/* Works in WebKit/Blink based browsers */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff6ec7; /* neon pink */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Image background */
+html {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+}
